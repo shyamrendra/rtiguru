@@ -1,0 +1,111 @@
+body {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #424242;
+    overflow-x: hidden!important;
+}
+
+
+.testimonial-area {
+    padding: 30px 0;
+    background: #EFFBFF;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title h2:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 50px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 50px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.testimonial-item {
+    border: 2px solid #004281;
+    box-shadow: 5px 5px 6px rgba(0,0,0,.06);
+    padding: 30px 30px 30px 130px;
+    margin: 0 15px 30px 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonial-item:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top: 40px solid #004281;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    transform: rotate(-45deg);
+    transform-origin: 80% -30% 0;
+}
+
+.testimonial-item .pic {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.testimonial-item .description {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.testimonial-item .title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    margin: 0;
+}
+
+.testimonial-item .post {
+    display: inline-block;
+    font-size: 12px;
+    color: #004281;
+}
+
+.testimonial-item .pic img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,277 @@
+.helpsection {
+    background: #e8e8e8!important;
+    padding:0px 0px 40px 0px;
+}
+
+.h1-margin {
+    margin: 40px 0px 40px 0px;
+    width: 100%;
+    float: left;
+}
+
+.what-container {
+    width: 35%;
+    margin: 0px auto;
+
+}
+
+.what {
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0px 0px 0px 15%!important;
+    margin-top: 30px;
+    position: relative;
+    display: inline;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+}
+
+.what:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 50px;
+    background: #004281;
+    transform: skewX(-10deg);
+}
+
+.what:after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 50px;
+    background: #004281;
+    transform: skewX(-10deg);
+}
+
+.services-features {
+    position: relative;
+    padding-left: 65px;
+    margin-bottom:20px; 
+}
+
+.services-features .rti-icon {
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    margin-top: 0;
+    color: #111;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    background: #004281;
+    color: #fff;
+}
+
+.services-features .back-color {
+    background: #eee;
+    padding: 15px 15px;
+}
+
+.services-features h4 {
+    font-size: 18px;
+    font-family: 'Raleway',sans-serif;
+    color: #232323;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.services-features p {
+    margin: 0;
+    padding: 0;
+    font-size: 14.5px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #424242;
+    text-align:left; 
+}
+
+@media screen and (min-width : 240px) and (max-width : 320px) {
+
+
+
+.help-container
+{
+	width: 100%;
+	margin:0px auto;
+
+}
+
+.Wehelp:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 20px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.Wehelp:after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 20px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.Wehelp {
+    font-size: 20px;
+    line-height: 20px;    
+   margin:0px 0px 0px 15%!important;
+    margin-top: 30px;
+    position: relative; 
+    display:inline;   
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+}
+
+.what {
+    font-size: 20px;
+    line-height: 20px;    
+   margin:0px 0px 0px 15%!important;
+    margin-top: 30px;
+    position: relative; 
+    display:inline;   
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+}
+
+
+}
+
+@media screen and (min-width : 321px) and (max-width : 516px) {
+
+
+.h1-margin
+{
+margin:50px 0px 50px 0px !important;
+width:100%;	
+float:left;
+}
+
+.what-container
+{
+	width:65% !important;
+	margin:0px auto;
+
+}
+
+.what:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 20px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.what:after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 20px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.what {
+    font-size: 20px;
+    line-height: 20px;    
+   margin:0px 0px 0px 15%!important;
+    margin-top: 30px;
+    position: relative; 
+    display:inline;   
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+}
+
+
+
+
+}
+
+
+@media screen and (min-width : 517px) and (max-width : 768px) {
+
+.h1-margin
+{
+margin:50px 0px 50px 0px !important;
+width:100%;	
+float:left;
+}
+
+.what-container
+{
+	width:65% !important;
+	margin:0px auto;
+
+}
+
+.what:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 25px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.what:after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 25px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.what {
+    font-size: 25px;
+    line-height: 20px;    
+   margin:0px 0px 0px 15%!important;
+    margin-top: 30px;
+    position: relative; 
+    display:inline;   
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+}
+
+}

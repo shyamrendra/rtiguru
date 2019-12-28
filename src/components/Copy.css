@@ -1,0 +1,32 @@
+
+#scrollUp
+{
+position: fixed;
+z-index: 2147483647;
+display: block;
+}
+
+#scrollUp:before {
+    content: "\f176";
+    font-family: FontAwesome;
+    font-size: 20px;
+}
+
+#scrollUp:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -15px;
+    border-right: 14.5px solid transparent;
+    border-left: 14.5px solid transparent;
+    border-bottom: 15px solid #004281;
+}
+
+.footer-copyright p
+{
+	 font-family:'Raleway',sans-serif;
+	 font-size:14px;
+	 text-align: center;
+	 margin:0px;
+	 padding:0px;
+}

@@ -1,0 +1,139 @@
+.title
+{
+	font-size:50px;
+	color:#000;
+	margin-top: 200px;
+}
+
+.banner-area {
+    background: url(../assets/images/banner/rti_banar-3.jpg); 
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+
+.overlay-black {
+    position: relative;
+}
+
+.banner-area.overlay-black:before {
+    background: rgba(0,0,0,.6) !important;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0
+}
+
+.banner-box {
+    padding: 200px 0 100px 0;
+    text-align: center;
+}
+
+.banner-box h3 {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 24px;
+    font-weight:600;
+}
+
+
+.input-group
+{
+
+max-width:670px;
+width:100%;
+margin-top:80px !important;
+
+}
+.input-wrapper
+{
+    width:95%;
+    float:left;
+}
+
+.search-control
+{
+	padding: 20px 10px 20px 10px !important;
+    border: #a8d4b1 1px solid !important;
+    border-radius: 4px !important;
+    width:100% !important;
+}
+
+.btn-search
+{
+   padding:8px 10px 8px 10px !important; 
+   -webkit-border-top-right-radius: 5px !important;
+-webkit-border-bottom-right-radius: 5px !important;
+-moz-border-radius-topright: 5px !important;
+-moz-border-radius-bottomright: 5px !important;
+border-top-right-radius: 5px !important;
+border-bottom-right-radius: 5px !important;
+border-radius:0px; 
+background:#337ab7;
+border-color:#2e6da4;
+
+}
+
+.btn-search:hover
+{
+ background:#004281;
+ color:#fff;   
+}
+.input-group-btns
+{
+ width:5%;  
+ float:left; 
+}
+
+.section-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #232323;
+}
+
+.section-title h2:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 50px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 50px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.section-title h2 span {
+    color: #004281;
+}

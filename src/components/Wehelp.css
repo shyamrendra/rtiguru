@@ -1,0 +1,485 @@
+
+.service-area {
+    padding: 30px 0 30px;
+    background: #effbff;
+}
+.h1-margin
+{
+margin:40px 0px 40px 0px;
+width:100%;	
+float:left;
+}
+
+.help-container
+{
+	width: 50%;
+	margin:0px auto;
+
+}
+
+.Wehelp:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 50px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.Wehelp:after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 50px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.Wehelp {
+    font-size: 36px;
+    line-height: 50px;    
+   margin:0px 0px 0px 15%!important;
+    margin-top: 30px;
+    position: relative; 
+    display:inline;   
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+}
+
+.help
+{
+	color:#004281 !important;
+}
+
+.tab-containers
+{
+	
+	width:100%;
+}
+
+.tab-containers .nav-item 
+{
+display: inline !important;
+width:33.3%;
+border-top: 0px!important;
+border-left: 0px!important;
+border-right: 0px!important;
+
+
+}
+
+.tab-containers .nav-item:hover
+{
+	color: #fff;
+    cursor: default;
+    background-color: transparent!important;   
+    border-top: 0px!important;
+    border-left: 0px!important;
+    border-right: 0px!important;
+    background: #004281!important;
+    border-radius: 0;
+}
+
+.tab-containers .nav-item .nav-link
+{
+	
+text-align: center;
+font-weight: 700;
+font-size: 18px;
+color:#01366c;
+cursor: pointer;
+display: block;
+float:left;
+width:100%;
+border-top: 0px!important;
+border-left: 0px!important;
+border-right: 0px!important;
+font-family: 'Raleway',sans-serif !important;	
+
+}
+  	
+
+
+.tab-containers .nav-item .active
+{
+	color: #fff;
+    cursor: default;
+    background-color: transparent!important;   
+    border-top: 0px!important;
+    border-left: 0px!important;
+    border-right: 0px!important;
+    background: #004281!important;
+    border-radius: 0;
+}
+
+.tab-containers .nav-item .nav-link:hover
+{
+     
+	
+    border:1px solid #fff;
+}
+
+
+.row-margin
+{
+margin-top:50px !important;	
+}
+
+
+.services-features-four {
+    border: 1px solid #ccc !important;
+    border-radius: 5px;
+    padding: 10px;
+
+   
+   
+}
+
+.back-color a
+{
+text-decoration:none;	
+}
+
+.helpname
+{
+	text-transform: capitalize!important;
+	font-family: 'Raleway',sans-serif;
+    color: #232323;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size:18px;
+    text-align:center; 
+}
+
+.services-features-four .iconbox {
+    background: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    margin-left: -40px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.back-color {
+    padding-left: 0;
+    position: relative;
+}
+
+
+
+.services-features-four .iconbox img
+{
+	width:51%;
+	height:58%;
+}
+
+.read-btn {
+    background: #004281;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 0;
+    border: none;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50px !important;
+    font-size:14px;
+    margin-top: 30px;
+    margin-bottom:10px; 
+}
+
+.read-btn:hover
+{
+color:#fff;
+ border-radius: 0px !important;	
+ transition: all 0.3s ease-in-out !important;
+ }	
+
+
+@media screen and (min-width : 240px) and (max-width : 320px) {
+
+
+.h1-margin
+{
+margin:0px 0px 30px 0px !important;
+width:100%;	
+float:left;
+}
+
+.help-container
+{
+	width: 100%;
+	margin:0px auto;
+
+}
+
+.Wehelp:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 20px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.Wehelp:after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 20px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.Wehelp {
+    font-size: 20px;
+    line-height: 20px;    
+   margin:0px 0px 0px 15%!important;
+    margin-top: 30px;
+    position: relative; 
+    display:inline;   
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+}
+
+.banner-box {
+    padding: 100px 0 50px 0 !important;
+    text-align: center;
+}
+
+
+.input-group {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 0px !important;
+}
+
+.banner-box h3 {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+
+.nav-link
+{
+  font-size: 12px !important;  
+}
+
+
+}
+
+@media screen and (min-width : 321px) and (max-width : 516px) {
+
+
+.h1-margin
+{
+margin:25px 0px 25px 0px !important;
+width:100%;	
+float:left;
+}
+
+.help-container
+{
+	width:90% !important;
+	margin:0px auto;
+
+}
+
+.Wehelp:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 20px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.Wehelp:after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 20px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.Wehelp {
+    font-size: 20px;
+    line-height: 20px;    
+   margin:0px 0px 0px 15%!important;
+    margin-top: 30px;
+    position: relative; 
+    display:inline;   
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+}
+
+
+
+.banner-box {
+    padding: 130px 0  20px 0 !important;
+    text-align: center;
+}
+
+
+.input-group {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 0px !important;
+}
+
+.banner-box h3 {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+
+.nav-link
+{
+  font-size: 14px !important;  
+}
+
+
+
+}
+
+
+@media screen and (min-width : 517px) and (max-width : 768px) {
+
+.h1-margin
+{
+margin:50px 0px 50px 0px !important;
+width:100%;	
+float:left;
+}
+
+.help-container
+{
+	width:65% !important;
+	margin:0px auto;
+
+}
+
+.Wehelp:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 25px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.Wehelp:after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 3px;
+    height: 25px;
+    background: #004281;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.Wehelp {
+    font-size: 25px;
+    line-height: 20px;    
+   margin:0px 0px 0px 15%!important;
+    margin-top: 30px;
+    position: relative; 
+    display:inline;   
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight:600;
+}
+
+
+
+.banner-box {
+    padding: 150px 0  100px 0 !important;
+    text-align: center;
+}
+
+
+.input-group {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 50px !important;
+}
+
+.banner-box h3 {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+
+.nav-link
+{
+  font-size: 14px !important;  
+}
+
+
+
+
+
+
+}

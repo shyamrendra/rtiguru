@@ -1,0 +1,159 @@
+.main-footer {
+    padding: 100px 0 70px;
+    background: #111;
+}
+
+.footer-col {
+    margin-bottom: 30px;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    position: relative;
+    color: #fff;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    font-family: 'Raleway',sans-serif;   
+    line-height: 1.1;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer-col h3:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 50px;
+    height: 3px;
+    background: #004281;
+}
+
+.footer-col h3 span {
+    color: #004281;
+    font-weight: 700;
+}
+
+.footer-col.about p {
+    color: #e2e2e2;
+    font-family: 'Raleway',sans-serif;
+}
+
+.footer-col.about ul {
+    margin-top: 20px;
+    padding:0px;
+    list-style: none;
+}
+
+.footer-col.about ul li {
+    position: relative;
+    padding-left: 0px;
+    color: #e2e2e2;
+    margin-bottom: 10px;
+     font-family: 'Raleway',sans-serif;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.space
+{
+	margin-right:10px; 
+}
+
+.footer-col.links ul
+{
+margin:0px;
+padding:0px;
+list-style:none;	
+}
+
+.footer-col.links ul li {
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.footer-col.links ul li a {
+    color: #e2e2e2;
+    text-transform: capitalize;
+     font-family: 'Raleway',sans-serif;
+}
+
+.footer-col.links ul li a:hover
+{
+	color:#337ab7;
+	text-decoration:none; 
+}
+
+.footer-col.newsletter .input-group {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.input-group-btn {
+    position: relative;
+    width: 20% !important;
+    float:left;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width:75%;
+    float:left;
+    
+}
+
+.subscribe
+{
+border-radius:0px !important;
+padding:15px 10px 15px 10px !important;
+font-size: 14px !important; 
+height: 45px;
+font-family: 'Raleway',sans-serif;	
+}
+
+.footer-col.newsletter .input-group .sub-btn {
+    background: #004281;
+    color: #fff;
+    border: none;
+    height: 45px;
+    border-radius: 0;
+    font-size: 14px !important; 
+    font-family: 'Raleway',sans-serif;
+}
+
+.footer-col.newsletter ul 
+{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+
+.footer-col.newsletter ul li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.footer-copyright {
+    padding: 20px 0;
+    background: #000;
+}
+
+.footer-copyright p {
+    color: #e2e2e2;
+}
+
+.footer-copyright {
+    padding: 20px 0;
+    background: #000;
+}
+
