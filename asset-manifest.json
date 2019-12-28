@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/rtiguru/static/css/main.09ac2ed2.chunk.css",
+    "main.js": "/rtiguru/static/js/main.931f0d29.chunk.js",
+    "main.js.map": "/rtiguru/static/js/main.931f0d29.chunk.js.map",
+    "runtime-main.js": "/rtiguru/static/js/runtime-main.e515c3e0.js",
+    "runtime-main.js.map": "/rtiguru/static/js/runtime-main.e515c3e0.js.map",
+    "static/js/2.d86e4482.chunk.js": "/rtiguru/static/js/2.d86e4482.chunk.js",
+    "static/js/2.d86e4482.chunk.js.map": "/rtiguru/static/js/2.d86e4482.chunk.js.map",
+    "index.html": "/rtiguru/index.html",
+    "precache-manifest.3e321cc9fd9d615edb28be0c7e97b2c0.js": "/rtiguru/precache-manifest.3e321cc9fd9d615edb28be0c7e97b2c0.js",
+    "service-worker.js": "/rtiguru/service-worker.js",
+    "static/css/main.09ac2ed2.chunk.css.map": "/rtiguru/static/css/main.09ac2ed2.chunk.css.map",
+    "static/js/2.d86e4482.chunk.js.LICENSE": "/rtiguru/static/js/2.d86e4482.chunk.js.LICENSE",
+    "static/media/Mobile.css": "/rtiguru/static/media/1.428f6100.jpg",
+    "static/media/ChildCustodyandVisitationRights1.jpg": "/rtiguru/static/media/ChildCustodyandVisitationRights1.22c15451.jpg",
+    "static/media/FundsUtilization.png": "/rtiguru/static/media/FundsUtilization.ce1ad28c.png",
+    "static/media/GramPanchayat.jpeg": "/rtiguru/static/media/GramPanchayat.cf4af703.jpeg",
+    "static/media/IncomeTaxRefund.png": "/rtiguru/static/media/IncomeTaxRefund.24323f11.png",
+    "static/media/MPfundsutilisation1.png": "/rtiguru/static/media/MPfundsutilisation1.fdd41f88.png",
+    "static/media/OccupancyCertificate.png": "/rtiguru/static/media/OccupancyCertificate.60912a35.png",
+    "static/media/OtherRTI1.png": "/rtiguru/static/media/OtherRTI1.6f87e2f8.png",
+    "static/media/RoadWork.png": "/rtiguru/static/media/RoadWork.21ae826f.png",
+    "static/media/Successcomesincans1.jpg": "/rtiguru/static/media/Successcomesincans1.9ee71465.jpg",
+    "static/media/TenderDetails.png": "/rtiguru/static/media/TenderDetails.8f9da044.png",
+    "static/media/dev.jpg": "/rtiguru/static/media/dev.05f8755f.jpg",
+    "static/media/logo.png": "/rtiguru/static/media/logo.e0be8e8c.png",
+    "static/media/passport2.jpg": "/rtiguru/static/media/passport2.3772122f.jpg",
+    "static/media/Banner.css": "/rtiguru/static/media/rti_banar-3.291ab390.jpg",
+    "static/media/yes1.jpg": "/rtiguru/static/media/yes1.1a683631.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e515c3e0.js",
+    "static/js/2.d86e4482.chunk.js",
+    "static/css/main.09ac2ed2.chunk.css",
+    "static/js/main.931f0d29.chunk.js"
+  ]
+}
